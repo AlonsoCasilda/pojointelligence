@@ -1,0 +1,74 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+body{
+    padding-bottom: 100%;
+}
+.logoCampus{
+    width: 20%;
+    height: 34%;
+    position: static;
+    margin-left: 40%;
+    margin-top: 1%;
+}
+
+header{
+    font-family: "Bahnschrift";
+}
+.fotoLogo{
+    width:10%;
+    height: 10%;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: 20% 20%;
+}
+ul{
+    list-style: none;
+}
+
+.nav li a{
+    background-color: red;
+    color: beige;
+    text-decoration: none;
+    padding: 10px 15px;
+    padding-right: 20%;
+    display: block;
+}
+
+.nav li a:hover{
+    background-color: rgb(177, 67, 67);
+    color: black;
+}
+/*RECOGE LOS ELEMENTOS QUE ESTEN DENTRO DEL LI, EN ESTE
+CASO AFECTARÁ A LOS SUBMENÚS*/
+.nav > li{
+    float: left;
+}
+
+.nav li ul {
+    display: none;
+    position: absolute;
+    min-width: 140px;
+}
+
+.nav li:hover > ul{
+    display: block;
+}
+.nav li ul li{
+    position: relative;
+}
+.nav li ul li ul{
+    right: -140px;
+    top: 0px;
+}
+
+.logos{
+    margin-left: 90%;
+    margin-top: -28%;
+    width: 6%;
+    height: 100%;
+    position: fixed;
+
+}
