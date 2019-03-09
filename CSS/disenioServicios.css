@@ -1,3 +1,42 @@
+.menu{
+    position:fixed;
+    background-color: rgba(84, 240, 70, 0.39);
+    height:12%;
+    width: 100%;
+    bottom: 88%;
+}
+
+.menuLetra{
+    margin-left: 6%;
+    display: inline;
+    background-color: rgb(223, 219, 219);
+    border:1px solid orange;
+    border-radius: 20%;
+    position: static;
+    padding-top:1%;
+    padding-bottom:1%;  
+    color:black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.menuLetra:hover{
+    margin-left: 6%;
+    display: inline;
+    background-color: rgba(248, 209, 165, 0.301);
+    border:1px solid rgba(255, 0, 0, 0.322);
+    border-radius: 20%;
+    position: static;
+    padding-top:1%;
+    padding-bottom:1%;
+}
+.enlace{
+    text-decoration: none;
+}
+.logito{
+    width: 40px;
+    height:40px;
+}
+
 /*SERVICIOS*/
 
 .losServicios{
