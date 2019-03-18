@@ -1,31 +1,45 @@
 /*INDEX*/
+/*@font-face{
+    font-family: "Roboto-Light";
+    src: url("../Roboto-Light.ttf");
+}*/
+/* HEMOS CAMBIADO LA FOTO DE FONDO, LA TENGO EL EL USB, TAMBIÉN HEMOS CAMBIADO LA TIPOGRAFÍA DE LA LETRA A Courier New Y HEMOS QUITADO LAS CAJAS Y LOS BORDES */
+#fondo{
+    position: fixed;
+    z-index: -1000;
+    margin-left: -100px;
+    margin-top: -10px;
+}
+
 .menu{
     position:fixed;
-    background-color: rgba(84, 240, 70, 0.39);
     height:12%;
     width: 100%;
     bottom: 88%;
 }
 
 .menuLetra{
-    margin-left: 6%;
+    color: white;
+    margin-left:8%;
     display: inline;
-    background-color: rgb(223, 219, 219);
-    border:1px solid orange;
-    border-radius: 20%;
+    background-color: *rgb(223, 219, 219);
+   
+ 
     position: static;
     padding-top:1%;
     padding-bottom:1%;  
-    color:black;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    
+    font-family: "Courier New";
 }
 
+
+
 .menuLetra:hover{
-    margin-left: 6%;
+    margin-left: 8%;
     display: inline;
     background-color: rgba(248, 209, 165, 0.301);
-    border:1px solid rgba(255, 0, 0, 0.322);
-    border-radius: 20%;
+    
+    
     position: static;
     padding-top:1%;
     padding-bottom:1%;
@@ -35,25 +49,32 @@
 }
 
 .fotoLogo{
+    align-content: center;
     position: static;
     margin-top:10%;
-    margin-left: 30%;
+    margin-left: 25%;
+    width: 700px;
 }
 
 hr{
-    width: 100%;
+    width: 80%;
     height: 5%;
     background-color: rgb(0, 0, 0);
-    border: 1px solid black;
+    border: 0.5px solid black;
+    border: 0.5px solid black;
 }
 
 .logito{
-    width: 40px;
-    height:40px;
+    width: 100px;
+    float: left;
+    margin-top: 12px;
+    margin-left: 20px;
+   
 }
  /*TESTIMONIOS*/
  #testimonio{
-    background-color: darkcyan;
+    
+    
     width:100%;
     padding-top: 3%;
     padding-bottom: 20%;
@@ -66,18 +87,19 @@ hr{
 }
     /*CUADRO 1*/
 .imleft{
-    border: 1px solid black;
+    
     float:left;
-    width: 15%;
-    height: 15%;
+    width: 35%;
+   margin-left: -20%;
     margin-top: 1.3%;
 }
 .pright{
-    border: 1px solid black;
     float: left;
     width:40%;
-    margin-left: 1%;
+    margin-left: 10%;
+    margin-top: 10%;
     font-size: 120%;
+    text-align: justify;
 }
     /*CUADRO 2*/
 .dos{
@@ -85,18 +107,17 @@ hr{
 }
 
 .pleft{
-    border: 1px solid black;
-    float: left;
+    margin-top: 50%;
+    margin-left: -10%;
     width:40%;
     font-size: 120%;
+    text-align: justify;
 }
 .imright{
-    border: 1px solid black;
-    float:left;
-    width: 15%;
-    height: 15%;
-    margin-left: 1%;
-    margin-top: 1.3%;
+    float:right;
+    width: 35%;
+    margin-right: 20%;
+    margin-top: -25%;
 }
 
     /*OFICINAS*/
