@@ -1,30 +1,47 @@
+/*DESDE AQUÍ FONDO Y MENU*/
+#fondo{
+    position: fixed;
+    z-index: -1000;
+    margin-left: -100px;
+    margin-top: -20px;
+}
+
+#degradado{
+    position: fixed;
+    z-index: -900;
+    margin-left: -100px;
+    margin-top: -20px;
+}
+
 .menu{
     position:fixed;
-    background-color: rgba(84, 240, 70, 0.39);
     height:12%;
     width: 100%;
     bottom: 88%;
 }
 
 .menuLetra{
-    margin-left: 6%;
+    color: white;
+    margin-left:8%;
     display: inline;
-    background-color: rgb(223, 219, 219);
-    border:1px solid orange;
-    border-radius: 20%;
+    background-color: *rgb(223, 219, 219);
+   
+ 
     position: static;
     padding-top:1%;
     padding-bottom:1%;  
-    color:black;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 130%;
+    font-family: "Latha";
 }
 
+
+
 .menuLetra:hover{
-    margin-left: 6%;
+    margin-left: 8%;
     display: inline;
     background-color: rgba(248, 209, 165, 0.301);
-    border:1px solid rgba(255, 0, 0, 0.322);
-    border-radius: 20%;
+    
+    
     position: static;
     padding-top:1%;
     padding-bottom:1%;
@@ -32,36 +49,46 @@
 .enlace{
     text-decoration: none;
 }
-.logito{
-    width: 40px;
-    height:40px;
+    
 }
 
+hr{
+    width: 80%;
+    height: 5%;
+    background-color: rgb(0, 0, 0);
+    border: 0.5px solid black;
+    border: 0.5px solid black;
+}
+
+.logito{
+    width: 100px;
+    float: left;
+    margin-top: 12px;
+    margin-left: 20px;
+}
+/*HASTA AQUÍ FONDO Y MENU*/
+
 /*QUIENES SOMOS*/
-.quienesSomos{
-    margin-top:10%;
-    height:100%;
-    width: 100%;
-    padding-bottom: 20%;
-    background-color: brown;
+
 }
 .quienTitulo{
     background-color: blueviolet;
-    margin-left: 30%;
+    margin-top: 90%;
     width:40%;
-    padding-top: 2%;
+    padding-top: 20%;
     padding-bottom: 2%;
     text-align: center;
 }
 .quienTexto{
     float: left;
-    width: 20%;
-    padding-right: 4%;
-    padding-left: 2%;
-    margin-top: 5%;
-    margin-left: 4%;
+    width: 30%;
+    padding-right: 2%;
+    padding-left: %;
+    margin-top: 27%;
+    margin-left:2%;
     font-size: 120%;
-    border: 2px solid black;
+    font-family: "Latha";
+    
 }
 .quienGrupo{
     float:right;
@@ -72,16 +99,24 @@
 }
 .quienPersona{
     float:right;
-    width: 15%;
-    height: 20%;
-    margin-top: 5%;
-    margin-right: 50%;
+    width: 55%;
+    z-index: -950;
+    margin-top: 30%;
+    margin-right: 10%;
 }
 .quienTesti{
     float:right;
-    border: 2px solid black;
+    
     padding:2%;
     position: static;
-    margin-top: -8%;
-    margin-right: 22%;
+    margin-top: 60%;
+    margin-right: 35%;
+}
+
+#solucion{
+    margin-left: 30%;
+    margin-top: 15%;
+    position: absolute;
+    font-size: 70px;
+    font-family: "Latha";
 }
