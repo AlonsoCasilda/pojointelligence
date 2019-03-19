@@ -166,12 +166,6 @@ hr{
 }
 
 #textoOfi{
-    z-index: -950;
-    white-space: nowrap;
-    margin-top: -850px;
-    margin-left: 1.5%;
-    width: 70%;
-    text-align: justify;
-    font-size: 120%;
+   position: absolute;
 }
 
