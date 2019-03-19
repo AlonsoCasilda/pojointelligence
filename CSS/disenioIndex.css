@@ -1,8 +1,8 @@
 /*INDEX*/
-/*@font-face{
-    font-family: "Roboto-Light";
-    src: url("../Roboto-Light.ttf");
-}*/
+@font-face{
+    font-family: "Latha";
+    src: url('../Latha.ttf');
+}
 /* HEMOS CAMBIADO LA FOTO DE FONDO, LA TENGO EL EL USB, TAMBIÉN HEMOS CAMBIADO LA TIPOGRAFÍA DE LA LETRA A Courier New Y HEMOS QUITADO LAS CAJAS Y LOS BORDES */
 
 /*FONDO Y MENU*/
