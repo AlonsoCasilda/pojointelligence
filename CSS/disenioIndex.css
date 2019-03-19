@@ -34,7 +34,7 @@ body {
     color: white;
     margin-left:8%;
     display: inline;
-    background-color: *rgb(223, 219, 219);
+    background-color: rgb(223, 219, 219);
    
  
     position: static;
@@ -167,7 +167,6 @@ hr{
 
 #textoOfi{
     z-index: -950;
-    position: initial;
     white-space: nowrap;
     margin-top: -890px;
     margin-left: 1.5%;
