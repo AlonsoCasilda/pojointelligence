@@ -1,4 +1,8 @@
 /*DESDE AQUÍ FONDO Y MENU*/
+
+body {
+    font-family: "Courier New";
+    
 #fondo{
     position: fixed;
     z-index: -1000;
