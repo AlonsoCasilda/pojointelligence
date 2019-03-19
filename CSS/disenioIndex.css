@@ -167,7 +167,7 @@ hr{
 
 #textoOfi{
     z-index: -950;
-    position: absolute;
+    position: initial;
     white-space: nowrap;
     margin-top: -890px;
     margin-left: 1.5%;
