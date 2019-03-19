@@ -152,6 +152,7 @@ hr{
     z-index: -950;
     width: 98%;
     margin-right: 20px;
+    position: absolute;
 }
 
 #textoOfi{
