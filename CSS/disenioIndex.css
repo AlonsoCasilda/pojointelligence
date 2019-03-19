@@ -35,6 +35,7 @@ body {
     padding-top:1%;
     padding-bottom:1%;  
     font-size: 110%;
+    
 }
 
 .menuLetra:hover{
@@ -157,7 +158,20 @@ hr{
 
 #textoOfi{
     position: absolute;
-    font-size: 120%;
+    font-size: 100%;
+    z-index: -800;  
+    margin-left: 3%;
+    margin-right: 4%;
+    padding-top: 2%;
+}
+
+#footer{
+    border: 1px solid #7B241C;
+    background-color: #7B241C;
+    color: white;
+    height: 90px;
+    text-align: center;
+    margin-top: 55%;
 }
 
 
