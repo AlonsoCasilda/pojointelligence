@@ -82,7 +82,8 @@ hr{
     padding-left: %;
     margin-top: 27%;
     margin-left:2%;
-    font-size: 120%;  
+    font-size: 120%;
+    text-align:justify;
 }
 .quienGrupo{
     float:right;
