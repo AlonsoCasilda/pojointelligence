@@ -1,4 +1,8 @@
 /*DESDE AQUÍ FONDO Y MENU*/
+
+body {
+    font-family: "Courier New";
+    
 #fondo{
     position: fixed;
     z-index: -1000;
@@ -30,8 +34,7 @@
     position: static;
     padding-top:1%;
     padding-bottom:1%;  
-    font-size: 130%;
-    font-family: "Latha";
+    font-size: 110%;
 }
 
 
@@ -40,16 +43,12 @@
     margin-left: 8%;
     display: inline;
     background-color: rgba(248, 209, 165, 0.301);
-    
-    
     position: static;
     padding-top:1%;
     padding-bottom:1%;
 }
 .enlace{
     text-decoration: none;
-}
-    
 }
 
 hr{
@@ -106,7 +105,6 @@ hr{
 }
 .quienTesti{
     float:right;
-    
     padding:2%;
     position: static;
     margin-top: 60%;
