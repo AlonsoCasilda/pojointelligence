@@ -30,15 +30,11 @@ body {
     margin-left:8%;
     display: inline;
     background-color: *rgb(223, 219, 219);
-   
- 
     position: static;
     padding-top:1%;
     padding-bottom:1%;  
     font-size: 110%;
 }
-
-
 
 .menuLetra:hover{
     margin-left: 8%;
@@ -86,9 +82,7 @@ hr{
     padding-left: %;
     margin-top: 27%;
     margin-left:2%;
-    font-size: 120%;
-    font-family: "Latha";
-    
+    font-size: 120%;  
 }
 .quienGrupo{
     float:right;
@@ -117,5 +111,4 @@ hr{
     margin-top: 15%;
     position: absolute;
     font-size: 70px;
-    font-family: "Latha";
 }
