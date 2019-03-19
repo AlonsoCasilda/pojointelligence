@@ -30,14 +30,12 @@ body {
     color: white;
     margin-left:8%;
     display: inline;
-    /*background-color: *rgb(223, 219, 219);*/
+    background-color: *rgb(223, 219, 219);
     position: static;
     padding-top:1%;
     padding-bottom:1%;  
     font-size: 110%;
 }
-
-
 
 .menuLetra:hover{
     margin-left: 8%;
@@ -47,6 +45,7 @@ body {
     padding-top:1%;
     padding-bottom:1%;
 }
+
 .enlace{
     text-decoration: none;
 }
@@ -58,8 +57,7 @@ body {
     position: static;
     margin-top:10%;
     margin-left: 25%;
-    width: 700px;
-    
+    width: 700px; 
 }
 
 hr{
