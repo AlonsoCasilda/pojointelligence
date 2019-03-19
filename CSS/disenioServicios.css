@@ -1,30 +1,45 @@
+/*DESDE AQUÍ FONDO Y MENU*/
+#fondo{
+    position: fixed;
+    z-index: -1000;
+    margin-left: -100px;
+    margin-top: -20px;
+}
+
+#degradado{
+    position: fixed;
+    z-index: -900;
+    margin-left: -100px;
+    margin-top: -20px;
+}
+
 .menu{
     position:fixed;
-    background-color: rgba(84, 240, 70, 0.39);
     height:12%;
     width: 100%;
     bottom: 88%;
 }
 
 .menuLetra{
-    margin-left: 6%;
+    color: white;
+    margin-left:7%;
     display: inline;
-    background-color: rgb(223, 219, 219);
-    border:1px solid orange;
-    border-radius: 20%;
+    background-color: *rgb(223, 219, 219);
+   
+ 
     position: static;
     padding-top:1%;
     padding-bottom:1%;  
-    color:black;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 120%;
+    font-family: "Courier New";
 }
 
 .menuLetra:hover{
-    margin-left: 6%;
+    margin-left: 7%;
     display: inline;
     background-color: rgba(248, 209, 165, 0.301);
-    border:1px solid rgba(255, 0, 0, 0.322);
-    border-radius: 20%;
+    
+    
     position: static;
     padding-top:1%;
     padding-bottom:1%;
@@ -32,83 +47,74 @@
 .enlace{
     text-decoration: none;
 }
-.logito{
-    width: 40px;
-    height:40px;
+    
 }
+
+hr{
+    width: 80%;
+    height: 5%;
+    background-color: rgb(0, 0, 0);
+    border: 0.5px solid black;
+    border: 0.5px solid black;
+}
+
+.logito{
+    width: 100px;
+    float: left;
+    margin-top: 12px;
+    margin-left: 20px;
+}
+/*HASTA AQUÍ FONDO Y MENU*/
 
 /*SERVICIOS*/
 
+#titulo{
+    margin-left: 12%;
+    font-size: 250%;
+}
+
+#tituloServicios{
+    font-size: 70%;
+}
+
 .losServicios{
-    background-color: rgb(93, 150, 199);
-    padding-bottom: 10%;
-    width: 100%;
+    
+   
+    width: 120%;
 }
 
 .servicio1, .servicio2, .servicio3{
-    border: 1px solid black;
-    width: 30%;
-    text-align: center;
+    
 }
 
 .servicio1{
+    font-size: 120%;
     display: inline-block;
-    margin-left: 20%;
+    margin-left: 15%;
     margin-top: 5%;
-    
+    text-align: center;
 }
 .servicio2{
+    font-size: 120%;
     display: inline-block;
-    margin-left:4%;
+    margin-left:10%;
+    text-align: center;
 }
 .servicio3{
-    margin-left: 40%;
+    font-size: 120%;
+    margin-right: 20%;
     margin-top: 7%;
-    padding-left:3%;
-    padding-bottom: 5%;
+    text-align: center;
+    
 }
-.servicio3:hover{
-    margin-left: 40%;
-    margin-top: 7%;
-    border:3px solid red;
-    background-color: rgb(248, 233, 192);
-}
+
+
 
 .imagenCampus{
     width:20%;
     height: 70%;
-    float: left;
 }
 
-
-/*COMO LLEGAR*/
-.ComoLLegar{
-    position: static;
-    
-}
-.googleMaps{
-    position: static;
-    float: right; 
-    margin-right: 30%;
-    margin-top: 10%;   
-    
-}
-.formulario{
-    position: static;
-    float: left;
-    margin-top: 10%;
-    margin-left: 10%;
-    background-color: rgb(255, 249, 167);
-}
-
-.logos{
-    position: fixed;
-   display: block;
-   margin-left: 90%;
-}
-
-.tamanio{
-    width: 20px;
-    height: 25px;
-    display: block;
+#textoCamp{
+    text-align: center;
 }
