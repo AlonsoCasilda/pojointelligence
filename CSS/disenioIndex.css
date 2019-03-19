@@ -4,11 +4,20 @@
     src: url("../Roboto-Light.ttf");
 }*/
 /* HEMOS CAMBIADO LA FOTO DE FONDO, LA TENGO EL EL USB, TAMBIÉN HEMOS CAMBIADO LA TIPOGRAFÍA DE LA LETRA A Courier New Y HEMOS QUITADO LAS CAJAS Y LOS BORDES */
+
+/*FONDO Y MENU*/
 #fondo{
     position: fixed;
     z-index: -1000;
     margin-left: -100px;
-    margin-top: -10px;
+    margin-top: -20px;
+}
+
+#degradado{
+    position: fixed;
+    z-index: -900;
+    margin-left: -100px;
+    margin-top: -20px;
 }
 
 .menu{
@@ -28,8 +37,8 @@
     position: static;
     padding-top:1%;
     padding-bottom:1%;  
-    
-    font-family: "Courier New";
+    font-size: 130%;
+    font-family: "Latha";
 }
 
 
@@ -48,12 +57,14 @@
     text-decoration: none;
 }
 
+/*HASTA AQUÍ FONDO Y MENU*/
 .fotoLogo{
     align-content: center;
     position: static;
     margin-top:10%;
     margin-left: 25%;
     width: 700px;
+    
 }
 
 hr{
@@ -85,22 +96,29 @@ hr{
     margin-left: 30%;
     position: static;
 }
+
+#nombres{
+    font-size: 170%;
+}
     /*CUADRO 1*/
 .imleft{
-    
+    z-index: -950;
+    white-space: nowrap;
     float:left;
     width: 35%;
-   margin-left: -20%;
+    margin-left: -20%;
     margin-top: 1.3%;
+    position: relative;
 }
 .pright{
+    white-space: nowrap;
     float: left;
     width: 60%;
     margin-left: 5%;
     margin-top: 10%;
     font-size: 120%;
     text-align: justify;
-    font-family: "Courier New";
+    font-family: "Latha";
 }
     /*CUADRO 2*/
 .dos{
@@ -108,14 +126,17 @@ hr{
 }
 
 .pleft{
+    white-space: nowrap;
     margin-top: 50%;
     margin-left: -20%;
     width:60%;
     font-size: 120%;
     text-align: justify;
-    font-family: "Courier New";
+    font-family: "Latha";
 }
 .imright{
+    z-index: -950;
+    position: relative; 
     float:right;
     width: 35%;
     margin-right: 20%;
@@ -123,22 +144,34 @@ hr{
 }
 
     /*OFICINAS*/
+#inst{
+    font-size: 250%;
+    font-family: "Latha";
+    text-align: center;
+    font-weight: bold;
+}
+
 #lasOficinas{
-    
+    z-index: -950;
     margin-left: 1%;
     margin-top: 5%;
     padding-bottom: 13%;
     
 }
 .ofright{
-    width: 85%;
-    margin-left: 90px;
+    z-index: -950;
+    width: 98%;
+    margin-right: 20px;
 }
 
 #textoOfi{
-    margin-top: -695px;
-    margin-left: 10%;
-    width: 80%;
-    font-family: "Courier New";
+    z-index: -950;
+    white-space: nowrap;
+    margin-top: -890px;
+    margin-left: 1.5%;
+    width: 95%;
+    font-family: "Latha";
     text-align: justify;
+    font-size: 120%;
 }
+
