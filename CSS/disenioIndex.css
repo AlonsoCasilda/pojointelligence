@@ -88,7 +88,6 @@ hr{
  /*TESTIMONIOS*/
  #testimonio{
     
-    /*font-family: latha;*/
     width:100%;
     padding-top: 3%;
     padding-bottom: 20%;
@@ -121,7 +120,7 @@ hr{
     margin-top: 10%;
     font-size: 120%;
     text-align: justify;
-    /*font-family: latha;*/
+
 }
     /*CUADRO 2*/
 .dos{
@@ -135,7 +134,7 @@ hr{
     width:60%;
     font-size: 120%;
     text-align: justify;
-     /*font-family: latha;*/
+
 }
 .imright{
     z-index: -950;
@@ -149,7 +148,6 @@ hr{
     /*OFICINAS*/
 #inst{
     font-size: 250%;
-    /*font-family: latha;*/
     text-align: center;
     font-weight: bold;
 }
@@ -173,7 +171,6 @@ hr{
     margin-top: -890px;
     margin-left: 1.5%;
     width: 70%;
-    /*font-family: latha;*/
     text-align: justify;
     font-size: 120%;
 }
