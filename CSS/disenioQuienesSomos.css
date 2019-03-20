@@ -128,3 +128,11 @@ hr{
     margin-left: 3%;
     width: 87%;
 }
+
+#textoCEO{
+    position: relative;
+    font-size: 120%;
+    z-index: 70;  
+    margin-left: 3%;
+    margin-right: 4%;
+}
