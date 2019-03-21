@@ -1,4 +1,9 @@
 /*DESDE AQUÍ FONDO Y MENU*/
+
+body {
+    font-family: "Courier New";
+}
+
 #fondo{
     position: fixed;
     z-index: -1000;
@@ -24,12 +29,10 @@
     color: white;
     margin-left:7%;
     display: inline;
-    background-color: *rgb(223, 219, 219);
     position: static;
     padding-top:1%;
     padding-bottom:1%;  
     font-size: 110%;
-    font-family: "Courier New";
 }
 
 .menuLetra:hover{
@@ -44,8 +47,6 @@
 }
 .enlace{
     text-decoration: none;
-}
-    
 }
 
 hr{
@@ -67,17 +68,21 @@ hr{
 /*SERVICIOS*/
 
 #titulo{
-    margin-left: 12%;
-    font-size: 250%;
-}
+    text-align: center;
+    font-size: 200%;
 
+}
+#serviciostext{
+   text-align: justify;
+   font-size: 110%;
+}
 #tituloServicios{
-    font-size: 70%;
+    font-size: 130%;
+    color: red;
+    text-align: left;
 }
 
 .losServicios{
-    
-   
     width: 120%;
 }
 
@@ -86,27 +91,24 @@ hr{
 }
 
 .servicio1{
-    font-size: 120%;
+    font-size: 110%;
     display: inline-block;
-    margin-left: 15%;
-    margin-top: 5%;
     text-align: center;
+    margin-left: 5%;
 }
+
 .servicio2{
-    font-size: 120%;
+    font-size: 110%;
     display: inline-block;
-    margin-left:10%;
     text-align: center;
+    margin-left:5%;
 }
 .servicio3{
     font-size: 120%;
     margin-right: 20%;
     margin-top: 7%;
-    text-align: center;
-    
+    text-align: center; 
 }
-
-
 
 .imagenCampus{
     width:20%;
