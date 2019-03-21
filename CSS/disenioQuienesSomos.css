@@ -107,6 +107,7 @@ hr{
 }
 
 #solucion{
+    z-indez: -900;
     margin-left: 30%;
     margin-top: 15%;
     position: absolute;
@@ -132,7 +133,7 @@ hr{
 #textoCEO{
     position: relative;
     font-size: 120%;
-    z-index: 70;  
+    z-index: -890;  
     margin-left: 3%;
     margin-right: 4%;
 }
