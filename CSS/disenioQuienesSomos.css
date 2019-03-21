@@ -30,7 +30,6 @@ body {
     color: white;
     margin-left:8%;
     display: inline;
-    /*background-color: *rgb(223, 219, 219);*/
     position: static;
     padding-top:1%;
     padding-bottom:1%;  
@@ -97,8 +96,8 @@ body {
 #jefa {
     margin-left: 3%;
     width: 87%;
-    
 }
+
 .jefabuena{
     width: 100%;
 }
@@ -111,4 +110,3 @@ body {
     width: 40%;
     text-align: justify;
 }
-
