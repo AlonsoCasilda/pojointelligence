@@ -1,10 +1,9 @@
-/*INDEX*/
-
-/*FONDO Y MENU*/
+/*DESDE AQUÍ FONDO Y MENU*/
 
 body {
     font-family: "Courier New";
 }
+
 #fondo{
     position: fixed;
     z-index: -1000;
@@ -14,12 +13,13 @@ body {
 
 #degradado{
     position: fixed;
-    z-index: -900;
+    z-index: 10;
     margin-left: -100px;
     margin-top: -20px;
 }
 
 .menu{
+    z-index: 10;
     position:fixed;
     height:12%;
     width: 100%;
@@ -30,12 +30,10 @@ body {
     color: white;
     margin-left:8%;
     display: inline;
-    background-color: *rgb(223, 219, 219);
     position: static;
     padding-top:1%;
     padding-bottom:1%;  
     font-size: 110%;
-    
 }
 
 .menuLetra:hover{
@@ -46,27 +44,8 @@ body {
     padding-top:1%;
     padding-bottom:1%;
 }
-
 .enlace{
     text-decoration: none;
-}
-
-/*HASTA AQUÍ FONDO Y MENU*/
-
-.fotoLogo{
-    align-content: center;
-    position: static;
-    margin-top:10%;
-    margin-left: 25%;
-    width: 700px; 
-}
-
-hr{
-    width: 80%;
-    height: 5%;
-    background-color: rgb(0, 0, 0);
-    border: 0.5px solid black;
-    border: 0.5px solid black;
 }
 
 .logito{
@@ -74,104 +53,60 @@ hr{
     float: left;
     margin-top: 12px;
     margin-left: 20px;
-   
 }
- /*TESTIMONIOS*/
- #testimonio{ 
-    width:100%;
-    padding-top: 3%;
-    padding-bottom: 20%;
-}
+/*HASTA AQUÍ FONDO Y MENU*/
 
-    /*CUADROS*/
-.cuadro{
-    margin-left: 30%;
-    position: static;
-}
+/*QUIENES SOMOS*/
 
-#nombres{
-    font-size: 170%;
-}
-    /*CUADRO 1*/
-.imleft{
-    z-index: -950;
-    white-space: nowrap;
-    float:left;
-    width: 35%;
-    margin-left: -20%;
-    margin-top: 1.3%;
-    position: relative;
-}
-.pright{
-    white-space: nowrap;
+.quienTexto{
     float: left;
-    width: 60%;
-    margin-left: 5%;
-    margin-top: 10%;
+    width: 30%;
+    padding-right: 2%;
+    padding-left: 1%;
+    margin-top: 27%;
+    margin-left:2%;
     font-size: 120%;
-    text-align: justify;
-
-}
-    /*CUADRO 2*/
-.dos{
-    margin-top: 15%;
+    text-align:justify;
 }
 
-.pleft{
-    white-space: nowrap;
-    margin-top: 50%;
-    margin-left: -20%;
-    width:60%;
-    font-size: 120%;
-    text-align: justify;
-
-}
-.imright{
-    z-index: -950;
-    position: relative; 
+.quienPersona{
     float:right;
-    width: 35%;
-    margin-right: 20%;
-    margin-top: -25%;
-}
-
-    /*OFICINAS*/
-#inst{
-    font-size: 250%;
-    text-align: center;
-    font-weight: bold;
-}
-
-#lasOficinas{
+    width: 55%;
     z-index: -950;
-    margin-left: 1%;
-    margin-top: 5%;
-    padding-bottom: 13%;
-    
-}
-.ofright{
-    z-index: -950;
-    width: 98%;
-    margin-right: 20px;
-    position: absolute;
+    margin-top: 30%;
+    margin-right: 10%;
 }
 
-#textoOfi{
+#solucion{
+    z-index: -900;
+    margin-left: 20%;
+    margin-top: 15%;
     position: absolute;
-    font-size: 100%;
-    z-index: -800;  
-    margin-left: 3%;
-    margin-right: 4%;
-    padding-top: 2%;
+    font-size: 70px;
 }
-
 #footer{
     border: 1px solid #7B241C;
     background-color: #7B241C;
     color: white;
     height: 90px;
     text-align: center;
-    margin-top: 55%;
+    margin-bottom:0%;
 }
 
+#jefa {
+    margin-left: 3%;
+    width: 87%;
+}
 
+.jefabuena{
+    width: 100%;
+}
+
+#textoCEO{
+    font-size: 120%;  
+    margin-left: 55%;
+    margin-right: 4%;
+    margin-top: -70%;
+    width: 40%;
+    text-align: justify;
+}
