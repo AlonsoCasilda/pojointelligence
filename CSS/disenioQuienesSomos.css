@@ -13,12 +13,13 @@ body {
 
 #degradado{
     position: fixed;
-    z-index: -900;
+    z-index: 10;
     margin-left: -100px;
     margin-top: -20px;
 }
 
 .menu{
+    z-index: 10;
     position:fixed;
     height:12%;
     width: 100%;
