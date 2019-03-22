@@ -28,7 +28,7 @@ body {
     color: white;
     margin-left:8%;
     display: inline;
-    background-color: *rgb(223, 219, 219);
+    /*background-color: *rgb(223, 219, 219);*/
     position: static;
     padding-top:1%;
     padding-bottom:1%;  
@@ -67,9 +67,25 @@ hr{
 /*HASTA AQUÍ FONDO Y MENU*/
     
     /*COMO LLEGAR*/
-    
+ 
+.contact{
+    position: absolute;
+    margin-top:11%;
+    margin-left: 10%;
+    padding: 1%;
+    border: 1px solid black;
+}
+.contact:hover{
+    position: absolute;
+    margin-top:11%;
+    margin-left: 10%;
+    padding: 1.3%;
+    color:rgb(44, 160, 255);
+    border: 1px solid rgb(44, 160, 255);
+}
+
 .ComoLLegar{
-    position: static;
+    position: relative;
     
 }
 .googleMaps{
@@ -82,9 +98,24 @@ hr{
 .formulario{
     position: static;
     float: left;
-    margin-top: 10%;
+    margin-top: 16%;
     margin-left: 10%;
-    background-color: rgb(255, 249, 167);
+}
+
+input{
+    height: 20px;
+    width: 250px;
+    border: 0px;
+    background-color: rgb(197, 232, 255);
+    border-radius: 15px;
+}
+
+input:hover{
+    height: 25px;
+    width: 350px;
+    /*border: 3px dotted rgb(255, 255, 255);;*/
+    background-color: rgb(42, 102, 145);
+    border-radius: 15px;
 }
 
 .logos{
@@ -101,5 +132,6 @@ hr{
 
 #mapa{
     margin-top: 10%;
-    margin-left: 10%;
+    margin-left: 43%;
+    position: absolute;
 }
