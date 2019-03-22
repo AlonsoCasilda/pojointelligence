@@ -3,6 +3,7 @@
 body {
     font-family: "Courier New";
 }
+
 #fondo{
     position: fixed;
     z-index: -1000;
@@ -35,8 +36,6 @@ body {
     font-size: 110%;
     /*font-family: "Latha";*/
 }
-
-
 
 .menuLetra:hover{
     margin-left: 8%;
@@ -98,7 +97,7 @@ hr{
 .formulario{
     position: static;
     float: left;
-    margin-top: 16%;
+    margin-top: 20%;
     margin-left: 10%;
 }
 
@@ -113,7 +112,6 @@ input{
 input:hover{
     height: 25px;
     width: 350px;
-    /*border: 3px dotted rgb(255, 255, 255);;*/
     background-color: rgb(42, 102, 145);
     border-radius: 15px;
 }
