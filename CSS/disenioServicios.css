@@ -107,11 +107,34 @@ hr{
 }
 
 .imagenCampus{
-    width:20%;
+    width:26%;
     height: 70%;
-    margin-left: 10%;
+    display: inline-block;
+    margin-left: 5%;
 }
 
 #textoCamp{
     text-align: center;
+}
+
+#footer{
+    border: 1px solid #7B241C;
+    background-color: #7B241C;
+    color: white;
+    height: 90px;
+    text-align: center;
+    margin-bottom:0%;
+}
+iframe {
+   padding-left: 70px;
+}
+
+.evento{
+    font-size: 400%;
+    text-align: center;;
+    color: red;
+}
+
+hr{
+    margin-right: 20%;
 }
