@@ -86,10 +86,6 @@ hr{
     width: 120%;
 }
 
-.servicio1, .servicio2, .servicio3{
-    
-}
-
 .servicio1{
     font-size: 110%;
     display: inline-block;
@@ -113,6 +109,7 @@ hr{
 .imagenCampus{
     width:20%;
     height: 70%;
+    margin-left: 10%;
 }
 
 #textoCamp{
