@@ -559,13 +559,57 @@ hr{
 }
 
 #cajTitPatr{
-    border: 1px solid black;
     width: 40%;
-    margin-left: 30%;
-    margin-top: -10%;
+    margin-left: 32%;
+    margin-top: -15%;
 }
 
 #titPatr{
     font-family: "Courier New";
+    font-size: 350%;
+    font-weight: bold;
 }
+
+    /*fotos patrocinadores*/
+    #cajaAtos{
+        border: 1px solid black;
+        width: 30%;
+        margin-left: 5%;
+    }
+
+    #atos{
+        width: 130%;
+    }
+
+    #cajaEveris{
+        border: 1px solid black;
+        width: 30%;
+        margin-left: 50%;
+        margin-top: -27%; 
+    }
+
+    #everis{
+        width: 100%;   
+    }
+
+    #cajaLg{
+        border: 1px solid black;
+        width: 30%;
+        margin-left: 5%;
+        margin-top: 5%;
+    }
+
+    #lg{
+        width: 90%;
+    }
+
+    #cajaSamsung{
+        border: 1px solid black;
+        width: 30%;
+    }
+
+    #samsung{
+        width: 50%;
+    }
+    /*FIN fotos patrocinadores*/
 /*FIN PATROCINADORES*/
