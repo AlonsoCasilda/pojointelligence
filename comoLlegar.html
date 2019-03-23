@@ -2,13 +2,11 @@
 <html>
     <head>
         <meta charset="UTF-8"/>
-        <link rel="stylesheet" type="text/css" href="CSS/disenioComoLlegar.css"/>
-        
+        <link rel="stylesheet" type="text/css" href="CSS/disenioComoLlegar.css"/> 
     </head>
-
     <body>
         <!-- /*DESDE AQUÍ FONDO Y MENU*/-->
-         <div>
+        <div>
             <img id="fondo" src="IMAGES/fondo.png"/>
             <img id="degradado" src="IMAGES/degradado.png"/>
             <div class="menu">
@@ -21,17 +19,16 @@
             </div>
         </div>
         <!-- /*HASTA AQUÍ FONDO Y MENU*/-->
-        
-        <h3 class="contact">Universidad Europea de Madrid<br>
+        <h3 class="contact">Contáctanos<br>
+        Universidad Europea de Madrid<br>
         Av de Fernando Alonso 8<br>
         28108 Alcobendas<br>
         Tel 91 211 56 73</h3>
         <div class="ComoLLegar">
-            
             <iframe id="mapa" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d2617.1469508624596!2d-3.6185032!3d40.5353643!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd422da995a9e6ab%3A0x3dd2d61b103821da!2sUniversidad+Europea+de+Madrid+(Campus+de+Alcobendas)!5e1!3m2!1ses!2ses!4v1553240810719" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>       
             <form class="formulario" method="post" name="formulario" action="http://seventorun.com/send.php" autocomplete="on">
                 <p>País</p>
-                    <input list="paises">
+                <input list="paises" placeholder=" Elije un país">
                     <datalist id="paises">
                         <option value="Afganistán"/>
                         <option value="Albania"/>
@@ -229,10 +226,20 @@
                         <option value="Zimbabue"/>
                     </datalist>
                 </input>
-                <p>Provincia</p><input type="text">
-                <p>Calle</p><input type="text">
-                <p>Código Postal</p><input type="text">
+                <p>Nombre y Apellidos</p><input type="text" placeholder=" Escribe tu nombre y apellidos" spellcheck="true">
+                <p>Sugerencias</p><input type= "text" placeholder=" Escribe tu calle" cols="5" rows="5" spellcheck="true">
+                <p>Email</p><input type="email" placeholder=" Escribe tu email">
+                <p></p><input type="submit">
+                <p></p><input type="reset">
             </form>
         </div>
+        <br>
+        <!-- EMPIEZA EL FOOTER -->
+        <div id="footer">
+            <br>
+            <br>
+             COPYRIGHT (c) LOS POJOS  2019
+        </div>
+        <!-- ACABA EL FOOTER -->
     </body>
 </html> 
