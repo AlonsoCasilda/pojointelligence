@@ -1,29 +1,22 @@
 /*FONDO Y DEGRADADO*/
-#fondo{
-    position: fixed;
-    z-index: -1000;
-    margin-left: -100px;
-    margin-top: -20px;
+    /*CAMBIO-FONDO*/
+body{
+    background-image: url(../IMAGES/fondo.png);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
 }
-
-
 
 
 #rojo{
-    position: fixed;
-    z-index: -900;
-    margin-left: -100px;
-    margin-top: -20px;
+    position: absolute;
+    margin-top:-50px;
+    margin-left: -20px;
 }
+
+
 /*FIN FONDO Y DEGRADADO*/
-
-
-body{
-    padding-bottom: 100%;
-    
-}
-
-
 
 .logoCampus{
     width: 20%;
@@ -34,9 +27,8 @@ body{
     float: left;
 }
 
-
 .fotoLogo{
-    z-index: ; 
+
     width:10%;
     height: 10%;
     background-attachment: fixed;
@@ -50,25 +42,24 @@ ul{
     list-style: none;
 }
 
-
-
-
 .nav li a{
-    opacity: 100%;
     color: black;
+    font-weight: bold;
     text-decoration: none;
-    padding: 10px 15px;
-    padding-right: 20%;
-    display: block; 
+    margin-top: 10px;
+    display: block;
+    position: relative;
+    font-size: 30px;
+    font-family: 'Courier New';
 }
 
+.nav li a:hover{   
+    color: red;
+    font-size: 30px;
+    font-family: 'Courier New';
+    
+    position: relative;
 
-
-
-
-.nav li a:hover{
-   
-    color: white;
 }
 
 
@@ -94,20 +85,19 @@ CASO AFECTARÁ A LOS SUBMENÚS*/
 
 .nav li:hover > ul{
     display: block;
-    background-color: red;
+    text-align: left;
+    padding-left: 10px;
+    margin: 0px;
 }
+
 
 
 
 .nav li ul li{
     position: relative;
-}
-
-
-
-.nav li ul li ul{
-    right: -140px;
-    top: 0px;
+    position: relative;
+    margin-left: -10px;
+    padding: 0px;
 }
 
 
