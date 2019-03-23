@@ -1,22 +1,21 @@
 /*FONDO Y DEGRADADO*/
-    /*CAMBIO-FONDO*/
-body{
-    background-image: url(../IMAGES/fondo.png);
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
+#fondo{
+    position: fixed;
+    z-index: -1000;
+    margin-left: -100px;
+    margin-top: -20px;
 }
-
-
 #rojo{
-    position: absolute;
-    margin-top:-50px;
-    margin-left: -20px;
+    position: fixed;
+    z-index: -900;
+    margin-left: -100px;
+    margin-top: -20px;
 }
-
-
 /*FIN FONDO Y DEGRADADO*/
+
+body{
+    padding-bottom: 100%;   
+}
 
 .logoCampus{
     width: 20%;
@@ -28,7 +27,6 @@ body{
 }
 
 .fotoLogo{
-
     width:10%;
     height: 10%;
     background-attachment: fixed;
@@ -36,34 +34,23 @@ body{
     background-size: 20% 20%;
 }
 
-
-
 ul{
     list-style: none;
 }
 
 .nav li a{
+    opacity: 100%;
     color: black;
-    font-weight: bold;
     text-decoration: none;
-    margin-top: 10px;
-    display: block;
-    position: relative;
-    font-size: 30px;
-    font-family: 'Courier New';
+    padding: 10px 15px;
+    padding-right: 20%;
+    display: block; 
 }
 
-.nav li a:hover{   
-    color: red;
-    font-size: 30px;
-    font-family: 'Courier New';
-    
-    position: relative;
-
+.nav li a:hover{
+   
+    color: white;
 }
-
-
-
 
 /*RECOGE LOS ELEMENTOS QUE ESTEN DENTRO DEL LI, EN ESTE
 CASO AFECTARÁ A LOS SUBMENÚS*/
@@ -71,37 +58,25 @@ CASO AFECTARÁ A LOS SUBMENÚS*/
     float: left;
 }
 
-
-
-
 .nav li ul {
     display: none;
     position: absolute;
     min-width: 140px;
 }
 
-
-
-
 .nav li:hover > ul{
     display: block;
-    text-align: left;
-    padding-left: 10px;
-    margin: 0px;
+    background-color: red;
 }
-
-
-
 
 .nav li ul li{
     position: relative;
-    position: relative;
-    margin-left: -10px;
-    padding: 0px;
 }
 
-
-
+.nav li ul li ul{
+    right: -140px;
+    top: 0px;
+}
 
 #cajaLogos{
     border: 1px  black;
@@ -109,9 +84,6 @@ CASO AFECTARÁ A LOS SUBMENÚS*/
     margin-left: 90%;
     position: fixed;
 }
-
-
-
 
 .logos{
     margin-left: 190%;
@@ -121,17 +93,9 @@ CASO AFECTARÁ A LOS SUBMENÚS*/
     float: right;
 }
 
-
-
-
 #insta{
     width: 100%;
 }
-
-
-
-
-
 
 /*Testimonios de personas que fueron al campus*/
 /*1*/
@@ -195,10 +159,6 @@ CASO AFECTARÁ A LOS SUBMENÚS*/
 /*FIN3*/
 /*FIN Testimonios de personas que fueron al campus*/
 
-
-
-
-
 hr{
     width: 70%;
     height: 5%;
@@ -207,11 +167,6 @@ hr{
     border: 0.5px solid black;
     margin-left: 10%;
 }
-
-
-
-
-
 
 /*AUN NO NOS CONOCEMOS*/
 #CajalogoCampus{
@@ -255,12 +210,7 @@ hr{
     width: 40%;
     
 }
-
 /*1*/
-#cajaQ1{
-    
-}
-
 #fotoQ1{
     width: 30%;
     margin-left: 5%;
@@ -281,9 +231,6 @@ hr{
 /*FIN1*/
 
 /*2*/
-#cajaQ2{
-    
-}
 
 #fotoQ2{
     width: 33%;
@@ -304,10 +251,6 @@ hr{
 /*FIN2*/
 
 /*3*/
-#cajaQ3{
-    
-}
-
 #fotoQ3{
     width: 33%;
     margin-left: 5%;
@@ -374,8 +317,7 @@ hr{
 }
 /*horas*/
 #hrHoras{
-    width: 3%;
-      
+    width: 3%;    
 }
 
 #txHoras{
@@ -412,9 +354,6 @@ hr{
     text-align: center;
     color: white;
 }
-
-
-
 
 #cajaPon1{
     border: 1px solid #922B21;
@@ -476,7 +415,6 @@ hr{
     color: white;
 }
 
-
 #cajaPon3{
     border: 1px solid #922B21;
     width: 25%;
@@ -506,7 +444,6 @@ hr{
     text-align: center;
     color: white;
 }
-
 
 #cajaPon4{
     border: 1px solid #922B21;
@@ -539,9 +476,6 @@ hr{
 }
 /*FIN HORARIO*/
 
-
-
-
 /*PATROCINADORES*/
 #logoCampPatr{
     width: 12%;
@@ -560,50 +494,50 @@ hr{
     font-weight: bold;
 }
 
-    /*fotos patrocinadores*/
-    #cajaAtos{
-        width: 30%;
-        margin-left: 15%;
+/*fotos patrocinadores*/
+#cajaAtos{
+    width: 30%;
+    margin-left: 15%;
+}
+
+#atos{
+    width: 90%;
+}
+
+#cajaEveris{
+     width: 30%;
+    margin-left: 50%;
+    margin-top: -20%; 
+}
+
+#everis{
+    width: 80%;   
+}
+
+#cajaLg{
+    width: 30%;
+    margin-left: 20%;
+    margin-top: -5;
+}
+
+#lg{
+    width: 70%;
+}
+
+#cajaSamsung{
+    width: 30%;
+    margin-left: 50%;
+    margin-top: -9%;
     }
 
-    #atos{
-        width: 90%;
-    }
+#samsung{
+    width: 80%;
+}
 
-    #cajaEveris{
-        width: 30%;
-        margin-left: 50%;
-        margin-top: -20%; 
-    }
-
-    #everis{
-        width: 80%;   
-    }
-
-    #cajaLg{
-        width: 30%;
-        margin-left: 20%;
-        margin-top: -5;
-    }
-
-    #lg{
-        width: 70%;
-    }
-
-    #cajaSamsung{
-        width: 30%;
-        margin-left: 50%;
-        margin-top: -9%;
-    }
-
-    #samsung{
-        width: 80%;
-    }
-
-    #cajaApple{
-        margin-left: 57%;
-        margin-top: 5%;
-    }
+#cajaApple{
+    margin-left: 57%;
+    margin-top: 5%;
+}
 
 #apple{
     width: 25%;
@@ -629,7 +563,6 @@ hr{
 }
     /*FIN fotos patrocinadores*/
 /*FIN PATROCINADORES*/
-
 
 /*FORMULARIO*/
 #logoCampPatr{
