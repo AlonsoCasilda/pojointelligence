@@ -132,6 +132,7 @@ input:hover{
     margin-top: 10%;
     margin-left: 43%;
     position: absolute;
+    z-index: -950;
 }
 
 #footer{
