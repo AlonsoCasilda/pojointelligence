@@ -125,7 +125,7 @@ CASO AFECTARÁ A LOS SUBMENÚS*/
 
 .logos{
     margin-left: 190%;
-    
+    box-shadow: 2px 2px 10px #666;
     width: 6%;
     position: fixed;
     float: right;
@@ -267,63 +267,305 @@ hr{
 }
 
 /*1*/
-#trab1{
+#cajaQ1{
     
-    width: 25%;
-    height: 30%;
-    margin-top: 15%;
-    margin-left: 5%
 }
 
-#imTrab1{
-    width: 72%;
-    margin-left: 10%;
+#fotoQ1{
+    width: 30%;
+    margin-left: 5%;
+    margin-top: 5%;
 }
 
-#txT1{
-    text-align: center;
+#cajaTxQ1{
+    width: 30%;
+    margin-left: 35%;
+    margin-top: -25%;
+    margin-right: 5%;
 }
 
+#txQ1{
+    font-family: "Courier New";
+    text-align: justify;
+}
 /*FIN1*/
 
 /*2*/
-#trab2{
+#cajaQ2{
     
-    width: 25%;
-    height: 30%;
-    margin-top: -25%;
-    margin-left: 32%;
 }
 
-#imTrab2{
-    width: 80%;
-    margin-left: 10%;
+#fotoQ2{
+    width: 33%;
+    margin-left: 55%;
+    margin-top: 10%;
 }
 
-#txT2{
-    text-align: center;
+#cajaTxQ2{
+    width: 30%;
+    margin-left: 17%;
+    margin-top: -15%;
+}
+
+#txQ2{
+    font-family: "Courier New";
+    text-align: justify;
 }
 /*FIN2*/
 
 /*3*/
-#trab3{
-  
+#cajaQ3{
+    
+}
+
+#fotoQ3{
+    width: 33%;
+    margin-left: 5%;
+    margin-top: 10%;
+}
+
+#cajaTxQ3{
     width: 30%;
-    height: 0%;
-    margin-top: -23.5%;
-    margin-left: 59%
+    margin-left: 35%;
+    margin-top: -25%;
 }
 
-#imTrab3{
-    width: 80%;
-    margin-left: 10%;
+#txQ3{
+    font-family: "Courier New";
+    text-align: justify;
 }
-
-#txT3{
-    text-align: center;
-    width: 80%;
-    margin-left: 8%;
-}
-
-
+/*FIN3*/
 /*FIN AUN NO NOS CONOCEMOS*/
+
+#hr2{
+    margin-top: 20%;
+}
+
+/*HORARIO*/
+#titHorarios{
+    width: 12%;
+    margin-left: 7%;
+}
+
+#tituloHorario{
+    margin-left: 11%;
+    width: 60%;
+    margin-top: -17%;
+}
+
+#tituloActos{
+    
+    margin-left: 25%;
+}
+
+#tituloHorario2{
+    font-size: 150%;
+    font-family: "Courier New";
+    font-weight: bolder;
+}
+
+#tituloFreak{
+    margin-left: 60%;
+    margin-top: -3.7%;
+}
+
+#tituloHorario3{
+    font-size: 150%;
+    font-family: "Courier New";
+    font-weight: bolder;
+}
+
+#tituloHorario1{
+    width: 60%;
+    margin-left: 50%;
+    font-size: 400%;
+    font-family: "Courier New";
+    font-weight: bold;
+}
+/*horas*/
+#hrHoras{
+    width: 3%;
+      
+}
+
+#txHoras{
+    margin-left: 10%;
+    font-family: "Courier New"; 
+}
+/*FIN horas*/
+
+#cajaApertura{
+    border: 1px solid #922B21;
+    width: 25%;
+    margin-top: -85%;
+    margin-left: 20%;
+    border-radius: 10%;
+    background-color: #922B21;
+}
+
+#titAp{
+    margin-left: 16%;
+    font-size: 120%;
+    font-family: "Courier New";
+    color: white;
+    font-weight: bold;
+}
+
+#fotoAp{
+    width:60%;
+    margin-left: 20%;
+}
+
+#txAp{
+    margin-left: 5%;
+    margin-right: 5%;
+    text-align: center;
+    color: white;
+}
+
+
+
+
+#cajaPon1{
+    border: 1px solid #922B21;
+    width: 25%;
+    margin-top: -10;
+    margin-left: 53%;
+    border-radius: 10%;
+    background-color: #922B21;
+}
+
+#titPon1{
+    margin-left: 11%;
+    font-size: 120%;
+    font-family: "Courier New";
+    color: white;
+    font-weight: bold;
+}
+
+#fotoPon1{
+    width:60%;
+    margin-left: 20%;
+}
+
+#txPon1{
+    margin-left: 5%;
+    margin-right: 5%;
+    text-align: center;
+    color: white;
+}
+
+
+#cajaPon2{
+    border: 1px solid #922B21;
+    width: 25%;
+    margin-top: -6%;
+    margin-left: 20%;
+    border-radius: 10%;
+    background-color: #922B21;
+    height: 50%;
+}
+
+#titPon2{
+    margin-left: 11%;
+    font-size: 120%;
+    font-family: "Courier New";
+    color: white;
+    font-weight: bold;
+}
+
+#fotoPon2{
+    width:60%;
+    margin-left: 20%;
+}
+
+#txPon2{
+    margin-left: 5%;
+    margin-right: 5%;
+    text-align: center;
+    color: white;
+}
+
+
+#cajaPon3{
+    border: 1px solid #922B21;
+    width: 25%;
+    margin-top: 6%;
+    margin-left: 20%;
+    border-radius: 10%;
+    background-color: #922B21;
+    height: 50%;
+}
+
+#titPon3{
+    margin-left: 11%;
+    font-size: 120%;
+    font-family: "Courier New";
+    color: white;
+    font-weight: bold;
+}
+
+#fotoPon3{
+    width:60%;
+    margin-left: 20%;
+}
+
+#txPon3{
+    margin-left: 5%;
+    margin-right: 5%;
+    text-align: center;
+    color: white;
+}
+
+
+#cajaPon4{
+    border: 1px solid #922B21;
+    width: 25%;
+    margin-top: -36%;
+    margin-left: 53%;
+    border-radius: 10%;
+    background-color: #922B21;
+    height: 50%;
+}
+
+#titPon4{
+    margin-left: 11%;
+    font-size: 120%;
+    font-family: "Courier New";
+    color: white;
+    font-weight: bold;
+}
+
+#fotoPon4{
+    width:60%;
+    margin-left: 20%;
+}
+
+#txPon4{
+    margin-left: 5%;
+    margin-right: 5%;
+    text-align: center;
+    color: white;
+}
+/*FIN HORARIO*/
+
+
+
+
+/*PATROCINADORES*/
+#logoCampPatr{
+    width: 12%;
+    margin-left: 7%;
+}
+
+#cajTitPatr{
+    border: 1px solid black;
+    width: 40%;
+    margin-left: 30%;
+    margin-top: -10%;
+}
+
+#titPatr{
+    font-family: "Courier New";
+}
+/*FIN PATROCINADORES*/
