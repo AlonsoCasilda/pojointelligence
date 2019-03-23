@@ -590,4 +590,53 @@ hr{
 #letrasForm{
     font-family: "Courier New";
 }
+
+.cajaTickets{
+    margin-left: 20%;
+    margin-top: -17%;
+    background-color: rgb(248, 202, 202);
+    width: 60%;
+    padding: 10px 20px;
+    border: 2px solid rgb(255, 153, 153);
+}
+
+.botonForm{
+    margin-top: -40px;
+    padding-bottom: 10%;
+    position: absolute;
+}
+
+.fondoR{
+    background-color:rgb(248, 202, 202);
+    border: 0px;
+    width:200px;
+}
+
+#send{
+    background-color:rgb(248, 202, 202);
+    border-radius: 20px;
+    border: 0px solid;
+    padding: 10px;
+}
+#send:hover{
+    background-color:rgb(248, 202, 202);
+    border: 0px solid;
+    border-radius: 20px;
+    padding: 10px;
+    border: 2px solid rgb(255, 153, 153);
+}
+
+#resetear{
+    background-color:rgb(248, 202, 202);
+    border-radius: 20px;
+    border: 0px solid;
+    padding: 10px;
+}
+#resetear:hover{
+    background-color:rgb(248, 202, 202);
+    border: 0px solid;
+    border-radius: 20px;
+    padding: 10px;
+    border: 2px solid rgb(255, 153, 153);
+}
 /*FIN FORMULARIO*/
