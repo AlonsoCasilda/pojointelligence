@@ -287,7 +287,6 @@ hr{
 }
 
 #tituloActos{
-    
     margin-left: 25%;
 }
 
@@ -315,6 +314,7 @@ hr{
     font-family: "Courier New";
     font-weight: bold;
 }
+
 /*horas*/
 #hrHoras{
     width: 3%;    
@@ -388,7 +388,7 @@ hr{
 #cajaPon2{
     border: 1px solid #922B21;
     width: 25%;
-    margin-top: -6%;
+    margin-top: -10%;
     margin-left: 20%;
     border-radius: 10%;
     background-color: #922B21;
