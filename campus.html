@@ -320,21 +320,42 @@
         </div>
         <div class="ComoLLegar">       
             <form class="formulario" method="post" name="formulario" action="http://seventorun.com/send.php" autocomplete="on">
-                <p id="letrasForm">Situación</p>
-                <input list="paises" placeholder="¿De qué lado estás?">
-                    <datalist id="paises">
-                        <option value="Sith"/>
-                        <option value="Jedi"/>
-                        <option value="Aburrido/a"/>                    
+            
+            <p id="letrasForm">Situación</p>
+            <input class="fondoR" list="paises" placeholder="¿De qué lado estás?">
+                <datalist id="paises">
+                    <option value="Sith"></option>
+                    <option value="Jedi"></option>
+                    <option value="Aburrido/a"></option>
+                </datalist>
+            </input>
+            <p id="letrasForm">Nombre y Apellidos</p><input class="fondoR" type="text" placeholder=" Escribe tu nombre y apellidos" spellcheck="true">
+            <br>
+            <p id="letrasForm">Email</p><input class="fondoR" type="email" placeholder=" Escribe tu email">
+            <div class="cajaTickets">
+                <p class="tickets">Tipo de entradas</p>
+                <input  list="ticketes" placeholder="Elige tu entrada">
+                    <datalist id="ticketes">
+                        <option value="Entrada Estudiante">25 €</option>
+                        <option value="Entrada Profesional">50 €</option>
+                        <option value="Entrada VIP">200 €</option>
+                        <option value="Entrada solo ponencia">15 €</option>
+                        <option value="Entrada solo taller">15 €</option>
                     </datalist>
                 </input>
-                <p id="letrasForm">Nombre y Apellidos</p><input type="text" placeholder=" Escribe tu nombre y apellidos" spellcheck="true">
-                <br>
-                <p id="letrasForm">Sugerencias</p><input type= "text" placeholder=" Escribe tu calle" cols="5" rows="5" spellcheck="true">
-                <br>
-                <p id="letrasForm">Email</p><input type="email" placeholder=" Escribe tu email">
-                <p></p><input type="submit">
-                <p></p><input type="reset">
+                <p class="infoTicket">Entrada Estudiante  25 euros la unidad. Acceso a evento y regalo<br>
+                    de kit de PartyUE<br>
+                    - Entrada Profesional  50 euros la unidad. Acceso a evento + kit de<br>
+                    PartyUE + Acceso a un taller y ponencia<br>
+                    - Entrada VIP  200 euros la unidad Acceso a evento + kit de PartyUE<br>
+                    + Acceso a todos los talleres y ponencias<br>
+                    - Entrada solo ponencia  15 euros<br>
+                    - Entrada solo taller  15 euros</p>
+            </div>
+            <div class="botonForm">
+                <p><input id="send" type="submit" value="Comprar">
+                <input id="resetear" type="reset"></p>
+            </div>
             </form>
         </div>
         <!-- FIN FORMULARIO DE REGISTRO PARA LA CAMPUS-->  
