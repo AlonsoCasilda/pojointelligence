@@ -16,6 +16,11 @@ body {
     z-index: -900;
     margin-left: -100px;
     margin-top: -20px;
+    z-index: 20;
+}
+
+iframe {
+    z-index: 0;
 }
 
 .menu{
@@ -23,18 +28,17 @@ body {
     height:12%;
     width: 100%;
     bottom: 88%;
+    z-index: 20;
 }
 
 .menuLetra{
     color: white;
     margin-left:8%;
     display: inline;
-    /*background-color: *rgb(223, 219, 219);*/
     position: static;
     padding-top:1%;
     padding-bottom:1%;  
     font-size: 110%;
-    /*font-family: "Latha";*/
 }
 
 .menuLetra:hover{
