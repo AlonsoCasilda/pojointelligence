@@ -16,11 +16,7 @@ body {
     z-index: -900;
     margin-left: -100px;
     margin-top: -20px;
-    z-index: 20;
-}
-
-iframe {
-    z-index: 0;
+    z-index: -900;
 }
 
 .menu{
