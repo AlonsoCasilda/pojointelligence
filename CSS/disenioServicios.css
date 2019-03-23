@@ -101,17 +101,28 @@ hr{
 }
 .servicio3{
     font-size: 120%;
-    margin-right: 20%;
+    margin-left: -60%;
     margin-top: 7%;
     text-align: center; 
 }
 
+
 .imagenCampus{
-    width:26%;
-    height: 70%;
+    margin-top: -11px;
+    width:10%;
+    height: 55%;
     display: inline-block;
+    position: relative;
     margin-left: 5%;
 }
+.imagenCampus:hover{
+    width:13%;
+    height: 57%;
+    display: inline-block;
+    position: static;
+    margin-left: 1%;
+}
+
 
 #textoCamp{
     text-align: center;
@@ -127,6 +138,8 @@ hr{
 }
 iframe {
    padding-left: 70px;
+   position: absolute;
+   margin-left: 20px;
 }
 
 .evento{
