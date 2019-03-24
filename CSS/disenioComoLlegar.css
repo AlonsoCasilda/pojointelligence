@@ -1,16 +1,13 @@
 /*DESDE AQUÍ FONDO Y MENU*/
-
 body {
     font-family: "Courier New";
 }
-
 #fondo{
     position: fixed;
     z-index: -1000;
     margin-left: -100px;
     margin-top: -20px;
 }
-
 #degradado{
     position: fixed;
     z-index: -900;
@@ -18,7 +15,6 @@ body {
     margin-top: -20px;
     z-index: -900;
 }
-
 .menu{
     position:fixed;
     height:12%;
@@ -26,7 +22,6 @@ body {
     bottom: 88%;
     z-index: 20;
 }
-
 .menuLetra{
     color: white;
     margin-left:8%;
@@ -48,7 +43,6 @@ body {
 .enlace{
     text-decoration: none;
 }
-
 hr{
     width: 80%;
     height: 5%;
@@ -56,17 +50,14 @@ hr{
     border: 0.5px solid black;
     border: 0.5px solid black;
 }
-
 .logito{
     width: 100px;
     float: left;
     margin-top: 12px;
     margin-left: 20px;
 }
-/*HASTA AQUÍ FONDO Y MENU*/
-    
-    /*COMO LLEGAR*/
- 
+/*HASTA AQUÍ FONDO Y MENU*/  
+/*COMO LLEGAR*/
 .contact{
     position: absolute;
     margin-top:11%;
@@ -82,17 +73,14 @@ hr{
     color:rgb(44, 160, 255);
     border: 1px solid rgb(44, 160, 255);
 }
-
 .ComoLLegar{
-    position: relative;
-    
+    position: relative;  
 }
 .googleMaps{
     position: static;
     float: right; 
     margin-right: 30%;
-    margin-top: 10%;   
-    
+    margin-top: 10%;     
 }
 .formulario{
     position: static;
@@ -100,7 +88,6 @@ hr{
     margin-top: 22%;
     margin-left: 10%;
 }
-
 input{
     height: 20px;
     width: 250px;
@@ -108,33 +95,28 @@ input{
     background-color: rgb(197, 232, 255);
     border-radius: 15px;
 }
-
 input:hover{
     height: 20px;
     width: 350px;
     background-color: rgb(42, 102, 145);
     border-radius: 15px;
 }
-
 .logos{
     position: fixed;
    display: block;
    margin-left: 90%;
 }
-
 .tamanio{
     width: 20px;
     height: 25px;
     display: block;
 }
-
 #mapa{
     margin-top: 10%;
     margin-left: 43%;
     position: absolute;
     z-index: -950;
 }
-
 #footer{
     border: 1px solid #7B241C;
     background-color: #7B241C;
