@@ -9,7 +9,7 @@
         <div class="menu">
             <img id="rojo" src="IMAGES/degradadoRojo.png"/>
             <ul class="nav">
-                <li><a href="#"><img class="fotoLogo" src="IMAGES/logito.png"></a>    
+                <li><a href="index.html" target="_blanket"><img class="fotoLogo" src="IMAGES/logito.png"></a>    
                     <ul>
                         <li><a href="#titConocemos">QUIÉNES SOMOS</a></li>
                         <li><a href="#horario">PROGRAMA</a></li>
@@ -44,32 +44,33 @@
         <br>
         <br>
         <!--Testimonios de personas que fueron al campus-->
-        <div id="testimonios">  
-            <div id="test1">
-                    <div id="imTest1">
-                        <img id="estu1"src="IMAGES/estudiante1.png"/>
-                    </div>
-                    <div id="txTest1">
-                        <p>"La Campus Party es la herramienta perfecta para respaldar nuestra misión de ayudar a las pequeñas empresas a conseguir préstamos."</p>
-                    </div>
-            </div>
-            <div id="test2">
-                    <div id="imTest2">
-                        <img id="estu2"src="IMAGES/estudiante2.png"/>
-                    </div>
-                    <div id="txTest2">
-                        <p>"La Campus Party congrega todas las herramientas de marketing en un solo lugar y es un evento potente, con muchas posibilidades de talento."</p>
-                    </div>
-            </div>
-            <div id="test3">
-                    <div id="imTest3">
-                        <img id="estu1"src="IMAGES/estudiante3.png"/>
-                    </div>
-                    <div id="txTest3">
-                        <p>"La Campus party es el futuro y sus conferencias son la solución adecuada para llevarnos a la difusión del éxito</p>
-                    </div>
-            </div>
-        </div>
+        
+        <table id="tablaTestimonios"  cellpadding="10px" cellspacing="0px">
+            <tr>
+                <td>
+                    <img class="estu1" src="IMAGES/estudiante1.png"/>
+                </td>
+                <td>
+                    <img class="estu1" src="IMAGES/estudiante2.png"/>
+                </td>
+                <td>
+                    <img class="estu1" src="IMAGES/estudiante3.png"/>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <p>"La Campus Party es la herramienta perfecta para respaldar nuestra misión de ayudar a las pequeñas empresas a conseguir préstamos."</p>
+                </td>
+                <td>
+                    <p>"La Campus Party congrega todas las herramientas de marketing en un solo lugar y es un evento potente, con muchas posibilidades de talento."</p>
+                </td>
+                <td>
+                    <p>"La Campus party es el futuro y sus conferencias son la solución adecuada para llevarnos a la difusión del éxito</p>
+                </td>
+            </tr>
+            
+        </table>
+
         <!--FIN Testimonios de personas que fueron al campus-->
         <br>
         <br>
@@ -272,8 +273,7 @@
         <!--FIN PATROCINADORES-->    
         <hr id="hr2">
         <!--FORMULARIO DE REGISTRO PARA LA CAMPUS-->
-          <a href="index.html"
-        target="_blanket">
+          <a href="index.html" target="_blanket">
               <img id="logoCampPatr" src="IMAGES/campus.png"/></a>
         <div id="cajTitForm">
             <p id="titForm">¡ REGÍSTRATE PARA PARTICIPAR EN NUESTRA CAMPUS PARTY !</p>
@@ -310,7 +310,8 @@
                     - Entrada VIP  200 euros la unidad Acceso a evento + kit de PartyUE<br>
                     + Acceso a todos los talleres y ponencias<br>
                     - Entrada solo ponencia  15 euros<br>
-                    - Entrada solo taller  15 euros</p>
+                    - Entrada solo taller  15 euros
+                </p>
             </div>
             <div class="botonForm">
                 <p><input id="send" type="submit" value="Comprar">
