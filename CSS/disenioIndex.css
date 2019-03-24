@@ -1,7 +1,5 @@
 /*INDEX*/
-
 /*FONDO Y MENU*/
-
 body {
     font-family: "Courier New";
 }
@@ -11,21 +9,18 @@ body {
     margin-left: -100px;
     margin-top: -20px;
 }
-
 #degradado{
     position: fixed;
     z-index: -900;
     margin-left: -100px;
     margin-top: -20px;
 }
-
 .menu{
     position:fixed;
     height:12%;
     width: 100%;
     bottom: 88%;
 }
-
 .menuLetra{
     color: white;
     margin-left:8%;
@@ -34,10 +29,8 @@ body {
     position: static;
     padding-top:1%;
     padding-bottom:1%;  
-    font-size: 110%;
-    
+    font-size: 110%;  
 }
-
 .menuLetra:hover{
     margin-left: 8%;
     display: inline;
@@ -46,13 +39,10 @@ body {
     padding-top:1%;
     padding-bottom:1%;
 }
-
 .enlace{
     text-decoration: none;
 }
-
 /*HASTA AQUÍ FONDO Y MENU*/
-
 .fotoLogo{
     align-content: center;
     position: static;
@@ -60,21 +50,17 @@ body {
     margin-left: 25%;
     width: 700px; 
 }
-
 hr{
     width: 80%;
     height: 5%;
-    background-color: rgb(0, 0, 0);
     border: 0.5px solid black;
     border: 0.5px solid black;
 }
-
 .logito{
     width: 100px;
     float: left;
     margin-top: 12px;
-    margin-left: 20px;
-   
+    margin-left: 20px; 
 }
  /*TESTIMONIOS*/
  #testimonio{ 
@@ -82,17 +68,15 @@ hr{
     padding-top: 3%;
     padding-bottom: 20%;
 }
-
-    /*CUADROS*/
+/*CUADROS*/
 .cuadro{
     margin-left: 30%;
     position: static;
 }
-
 #nombres{
     font-size: 170%;
 }
-    /*CUADRO 1*/
+/*CUADRO 1*/
 .imleft{
     z-index: -950;
     white-space: nowrap;
@@ -110,13 +94,11 @@ hr{
     margin-top: 10%;
     font-size: 120%;
     text-align: justify;
-
 }
-    /*CUADRO 2*/
+/*CUADRO 2*/
 .dos{
     margin-top: 15%;
 }
-
 .pleft{
     white-space: nowrap;
     margin-top: 50%;
@@ -124,7 +106,6 @@ hr{
     width:60%;
     font-size: 120%;
     text-align: justify;
-
 }
 .imright{
     z-index: -950;
@@ -134,20 +115,17 @@ hr{
     margin-right: 20%;
     margin-top: -25%;
 }
-
-    /*OFICINAS*/
+/*OFICINAS*/
 #inst{
     font-size: 250%;
     text-align: center;
     font-weight: bold;
 }
-
 #lasOficinas{
     z-index: -950;
     margin-left: 1%;
     margin-top: 5%;
     padding-bottom: 13%;
-    
 }
 .ofright{
     z-index: -950;
@@ -155,7 +133,6 @@ hr{
     margin-right: 20px;
     position: absolute;
 }
-
 #textoOfi{
     position: absolute;
     font-size: 100%;
@@ -164,7 +141,6 @@ hr{
     margin-right: 4%;
     padding-top: 2%;
 }
-
 #footer{
     border: 1px solid #7B241C;
     background-color: #7B241C;
