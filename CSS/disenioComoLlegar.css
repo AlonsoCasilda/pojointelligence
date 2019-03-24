@@ -1,5 +1,5 @@
 /*DESDE AQUÍ FONDO Y MENU*/
-body {
+body{
     font-family: "Courier New";
 }
 #fondo{
@@ -31,7 +31,6 @@ body {
     padding-bottom:1%;  
     font-size: 110%;
 }
-
 .menuLetra:hover{
     margin-left: 8%;
     display: inline;
@@ -42,13 +41,6 @@ body {
 }
 .enlace{
     text-decoration: none;
-}
-hr{
-    width: 80%;
-    height: 5%;
-    background-color: rgb(0, 0, 0);
-    border: 0.5px solid black;
-    border: 0.5px solid black;
 }
 .logito{
     width: 100px;
@@ -76,12 +68,6 @@ hr{
 .ComoLLegar{
     position: relative;  
 }
-.googleMaps{
-    position: static;
-    float: right; 
-    margin-right: 30%;
-    margin-top: 10%;     
-}
 .formulario{
     position: static;
     float: left;
@@ -100,16 +86,6 @@ input:hover{
     width: 350px;
     background-color: rgb(42, 102, 145);
     border-radius: 15px;
-}
-.logos{
-    position: fixed;
-   display: block;
-   margin-left: 90%;
-}
-.tamanio{
-    width: 20px;
-    height: 25px;
-    display: block;
 }
 #mapa{
     margin-top: 10%;
