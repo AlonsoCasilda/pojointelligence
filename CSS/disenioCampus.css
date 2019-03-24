@@ -281,8 +281,10 @@ table{
     margin-left: 13%;
 }
 span{
-    margin-left: 10%;
+    margin-left: 35%;
     font-weight: bold;
+    font-size: 30px;
+    text-decoration: underline;
 
 }
 .horas{
@@ -507,5 +509,5 @@ span{
     color: white;
     height: 90px;
     text-align: center;
-    margin-top: 55%;
+    margin-top: 5%;
 }
