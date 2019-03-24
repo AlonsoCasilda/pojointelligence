@@ -293,7 +293,12 @@ span{
 .cajaH{
     background-color: #922B21;
     border-top-right-radius: 30%;
-    border-bottom-right-radius: 25%;
+    border-bottom-right-radius: 30%;
+}
+.cajaH2{
+    background-color: #922B21;
+    border-top-left-radius: 30%;
+    border-bottom-left-radius: 30%;
 }
 .nombreH{
     color: white;
