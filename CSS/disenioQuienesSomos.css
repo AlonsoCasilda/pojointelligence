@@ -3,21 +3,18 @@
 body {
     font-family: "Courier New";
 }
-
 #fondo{
     position: fixed;
     z-index: -1000;
     margin-left: -100px;
     margin-top: -20px;
 }
-
 #degradado{
     position: fixed;
     z-index: 10;
     margin-left: -100px;
     margin-top: -20px;
 }
-
 .menu{
     z-index: 10;
     position:fixed;
@@ -25,7 +22,6 @@ body {
     width: 100%;
     bottom: 88%;
 }
-
 .menuLetra{
     color: white;
     margin-left:8%;
@@ -35,7 +31,6 @@ body {
     padding-bottom:1%;  
     font-size: 110%;
 }
-
 .menuLetra:hover{
     margin-left: 8%;
     display: inline;
@@ -47,7 +42,6 @@ body {
 .enlace{
     text-decoration: none;
 }
-
 .logito{
     width: 100px;
     float: left;
@@ -55,9 +49,7 @@ body {
     margin-left: 20px;
 }
 /*HASTA AQUÍ FONDO Y MENU*/
-
 /*QUIENES SOMOS*/
-
 .quienTexto{
     float: left;
     width: 30%;
@@ -68,7 +60,6 @@ body {
     font-size: 120%;
     text-align:justify;
 }
-
 .quienPersona{
     float:right;
     width: 55%;
@@ -76,7 +67,6 @@ body {
     margin-top: 30%;
     margin-right: 10%;
 }
-
 #solucion{
     z-index: -900;
     margin-left: 20%;
@@ -84,7 +74,6 @@ body {
     position: absolute;
     font-size: 70px;
 }
-
 #footer{
     border: 1px solid #7B241C;
     background-color: #7B241C;
@@ -93,16 +82,13 @@ body {
     text-align: center;
     margin-bottom:0%;
 }
-
 #jefa {
     margin-left: 3%;
     width: 87%;
 }
-
 .jefabuena{
     width: 100%;
 }
-
 #textoCEO{
     font-size: 120%;  
     margin-left: 55%;
