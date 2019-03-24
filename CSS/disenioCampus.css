@@ -324,9 +324,6 @@ table{
     height: 400px;
     width: 500px;
 }
-
-
-
 /*FIN HORARIO*/
 
 /*PATROCINADORES*/
@@ -493,3 +490,12 @@ table{
     border: 2px solid rgb(255, 153, 153);
 }
 /*FIN FORMULARIO*/
+
+#footer{
+    border: 1px solid #7B241C;
+    background-color: #7B241C;
+    color: white;
+    height: 90px;
+    text-align: center;
+    margin-top: 55%;
+}
