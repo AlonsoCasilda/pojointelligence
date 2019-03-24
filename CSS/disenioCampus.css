@@ -105,14 +105,30 @@ CASO AFECTARÁ A LOS SUBMENÚS*/
 
 /*Testimonios de personas que fueron al campus*/
 /*1*/
+
+
 #test1{ 
     width: 25%;
     height: 30%;
     margin-top: 35%;
-    margin-left: 5%
+    margin-left: 5%;
+
 }
 
-#estu1{
+#imTest1{
+    float: left;
+
+}
+#imTest2{
+    float: left;
+
+}
+#imTest3{
+    float: left;
+
+}
+
+.estu1{
     width: 72%;
     margin-left: 10%;
 }
@@ -124,41 +140,8 @@ CASO AFECTARÁ A LOS SUBMENÚS*/
 /*FIN1*/
 
 /*2*/
-#test2{
-    width: 25%;
-    height: 30%;
-    margin-top: -28.5%;
-    margin-left: 32%;
-}
 
-#estu2{
-    width: 80%;
-    margin-left: 10%;
-}
 
-#txTest2{
-    text-align: center;
-}
-/*FIN2*/
-
-/*3*/
-#test3{
-    width: 30%;
-    height: 0%;
-    margin-top: -27%;
-    margin-left: 59%
-}
-
-#estu3{
-    width: 80%;
-    margin-left: 10%;
-}
-
-#txTest3{
-    text-align: center;
-    width: 80%;
-    margin-left: 8%;
-}
 /*FIN3*/
 /*FIN Testimonios de personas que fueron al campus*/
 
