@@ -275,205 +275,58 @@ hr{
 }
 
 /*HORARIO*/
-#titHorarios{
-    width: 12%;
-    margin-left: 7%;
-}
-
-#tituloHorario{
-    margin-left: 11%;
-    width: 60%;
-    margin-top: -17%;
-}
-
-#tituloActos{
-    margin-left: 25%;
-}
-
-#tituloHorario2{
-    font-size: 150%;
-    font-family: "Courier New";
-    font-weight: bolder;
-}
-
-#tituloFreak{
-    margin-left: 60%;
-    margin-top: -3.7%;
-}
-
-#tituloHorario3{
-    font-size: 150%;
-    font-family: "Courier New";
-    font-weight: bolder;
-}
-
-#tituloHorario1{
-    width: 60%;
-    margin-left: 50%;
-    font-size: 400%;
-    font-family: "Courier New";
-    font-weight: bold;
-}
-
-/*horas*/
-#hrHoras{
-    width: 3%;    
-}
-
-#txHoras{
+span{
     margin-left: 10%;
-    font-family: "Courier New"; 
 }
-/*FIN horas*/
-
-#cajaApertura{
-    border: 1px solid #922B21;
-    width: 25%;
-    margin-top: -80%;
-    margin-left: 20%;
-    border-radius: 10%;
+.horas{
+    width: 10%;
+    border-top: 1px solid black;
+}
+table{
+    text-align: center;
+}
+.cajaH{
     background-color: #922B21;
+    border-radius: 20%;
+    width: 20%;
 }
-
-#titAp{
-    margin-left: 16%;
-    font-size: 120%;
-    font-family: "Courier New";
+.nombreH{
     color: white;
+    font-size: 20px;
     font-weight: bold;
 }
-
-#fotoAp{
-    width:60%;
+.textoH{
+    color: white;
+    width: 60%;
     margin-left: 20%;
 }
-
-#txAp{
-    margin-left: 5%;
-    margin-right: 5%;
-    text-align: center;
-    color: white;
+#imagen1{
+    height: 200px;
+    width: 300px;
 }
-
-#cajaPon1{
-    border: 1px solid #922B21;
-    width: 25%;
-    margin-top: -10;
-    margin-left: 53%;
-    border-radius: 10%;
-    background-color: #922B21;
+#imagen2{
+    height: 200px;
+    width: 300px;
 }
-
-#titPon1{
-    margin-left: 11%;
-    font-size: 120%;
-    font-family: "Courier New";
-    color: white;
-    font-weight: bold;
+#imagen3{
+    height: 300px;
+    width: 300px;
 }
-
-#fotoPon1{
-    width:60%;
-    margin-left: 20%;
+#imagen3{
+    height: 300px;
+    width: 300px;
 }
-
-#txPon1{
-    margin-left: 5%;
-    margin-right: 5%;
-    text-align: center;
-    color: white;
+#imagen4{
+    height: 200px;
+    width: 200px;
+}
+#imagen5{
+    height: 400px;
+    width: 500px;
 }
 
 
-#cajaPon2{
-    border: 1px solid #922B21;
-    width: 25%;
-    margin-top: -10%;
-    margin-left: 20%;
-    border-radius: 10%;
-    background-color: #922B21;
-    height: 50%;
-}
 
-#titPon2{
-    margin-left: 11%;
-    font-size: 120%;
-    font-family: "Courier New";
-    color: white;
-    font-weight: bold;
-}
-
-#fotoPon2{
-    width:60%;
-    margin-left: 20%;
-}
-
-#txPon2{
-    margin-left: 5%;
-    margin-right: 5%;
-    text-align: center;
-    color: white;
-}
-
-#cajaPon3{
-    border: 1px solid #922B21;
-    width: 25%;
-    margin-top: 6%;
-    margin-left: 20%;
-    border-radius: 10%;
-    background-color: #922B21;
-    height: 50%;
-}
-
-#titPon3{
-    margin-left: 11%;
-    font-size: 120%;
-    font-family: "Courier New";
-    color: white;
-    font-weight: bold;
-}
-
-#fotoPon3{
-    width:60%;
-    margin-left: 20%;
-}
-
-#txPon3{
-    margin-left: 5%;
-    margin-right: 5%;
-    text-align: center;
-    color: white;
-}
-
-#cajaPon4{
-    border: 1px solid #922B21;
-    width: 25%;
-    margin-top: -36%;
-    margin-left: 53%;
-    border-radius: 10%;
-    background-color: #922B21;
-    height: 50%;
-}
-
-#titPon4{
-    margin-left: 11%;
-    font-size: 120%;
-    font-family: "Courier New";
-    color: white;
-    font-weight: bold;
-}
-
-#fotoPon4{
-    width:60%;
-    margin-left: 20%;
-}
-
-#txPon4{
-    margin-left: 5%;
-    margin-right: 5%;
-    text-align: center;
-    color: white;
-}
 /*FIN HORARIO*/
 
 /*PATROCINADORES*/
